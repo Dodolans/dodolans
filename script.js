@@ -1,7 +1,7 @@
 console.log('readt----------.');
 
 $(document).ready(function() {
-    const urlApi = "https://gist.githubusercontent.com/Rahmadjaya/4f766d046ee40fe80761116a0fc0955e/raw/a326ca23332609d7744b80efdde075c5bbd7a594/products.json";
+    const urlApi = "https://gist.githubusercontent.com/Dodolans/b12dc0493d6fb3a12231324e4c8a9617/raw/d2c27f3c37bc138fd0145e7dbd9a487a99583a9b/products";
 
     function appendItemMovie(data) {
       console.log(data);
