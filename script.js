@@ -4,7 +4,7 @@ $(document).ready(function() {
     const urlApi = "https://gist.githubusercontent.com/Rahmadjaya/4f766d046ee40fe80761116a0fc0955e/raw/a326ca23332609d7744b80efdde075c5bbd7a594/products.json";
 
     function appendItemMovie(data) {
-        console.log(data);
+      console.log(data);
         
       for(var i = 0; i <= data.length;i++){
         if(data[i] != undefined){
@@ -32,10 +32,8 @@ $(document).ready(function() {
     function searchProduct() {
       const searchbar = document.querySelector('ion-searchbar');
       const items = Array.from(document.getElementById('PlaylistMovie').children);
-      console.log('items', items)
       searchbar.addEventListener('ionInput', handleInput);
       function handleInput(event) {
-        console.log(event)
         const query = event.target.value.toLowerCase();
         requestAnimationFrame(() => {
           items.forEach(item => {
