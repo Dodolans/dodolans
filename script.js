@@ -6,6 +6,7 @@ $(document).ready(function() {
     function appendItemMovie(data) {
       for(var i = 0; i <= data.length;i++){
         if(data[i] != undefined){
+            console.log(data[i])
           var dataHtml = `
                               <ion-col size="6">
                                 <ion-card class="ion-no-margin" style="height: 100%;">
