@@ -4,7 +4,7 @@ $(document).ready(function() {
     const urlApi = "https://gist.githubusercontent.com/Rahmadjaya/4f766d046ee40fe80761116a0fc0955e/raw/a326ca23332609d7744b80efdde075c5bbd7a594/products.json";
 
     function appendItemMovie(data) {
-        console.log(JSON.parse(data));
+        console.log(data);
         
       for(var i = 0; i <= data.length;i++){
         if(data[i] != undefined){
